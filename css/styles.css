@@ -35,8 +35,8 @@
   }
 
   .parcontent {
-    line-height: 1vmax;
-    font-size: 0.5vmax;
+    line-height: 1.5vmax;
+    font-size: 0.8vmax;
     font-family: 'Arial';
     margin-left: 10%;
     margin-right: 10%;
@@ -45,7 +45,7 @@
    }
 
   .parcontent ul{
-    line-height: 1.0vh;
+    line-height: 1.5vh;
    }
 
    .parcontent h3 {
