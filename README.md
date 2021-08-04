@@ -1,6 +1,6 @@
 # Sheeba Samuel
 
 Webpages:
+* Personal - https://sheeba-samuel.github.io/
+* Official - https://fusion.cs.uni-jena.de/fusion/members/sheeba-samuel/
 * Research - https://w3id.org/reproduceme/research
-* The REPRODUCE-ME ontology documentation - https://w3id.org/reproduceme
-* CAESAR - https://github.com/CaesarReceptorLight
