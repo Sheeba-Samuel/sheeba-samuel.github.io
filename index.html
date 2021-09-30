@@ -1,96 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8"/>
-      <meta http-equiv="Content-Language" content="en"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-      <title>Sheeba Samuel</title>
-      <meta property="dc:title" content="Sheeba Samuel">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content="Sheeba Samuel">
-      <meta property="og:url" content="https://w3id.org/reproduceme/research">
-      <meta property="og:image" content="">
-      <meta property="og:description" content="Sheeba Samuel's Personal Blog">
-      <meta name="twitter:site" content="@sheebasamuel">
-      <meta name="twitter:creator" content="@sheebasamuel">
-      <link rel="stylesheet" href="css/styles.css"/>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" crossorigin="anonymous"/>
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
-      <script type="application/ld+json"></script>
-   </head>
-   <body vocab="http://schema.org/">
-        <div class="licence"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-            <img alt="Creative Commons License" style="border-width:0" src="images/license.png"/></a>
-        </div>
-        <div class="page" typeof="WebPage">
-            <nav class="navbar navbar-toggleable-md navbar-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto" typeof="BreadcrumbList">
-                    <li class="nav-item active">
-                        <h4><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></h4>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="research/cv.html">
-                        <span property="name">CV</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="2"/>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="https://w3id.org/reproduceme/research" target="_blank">
-                        <span property="name">Research</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="2"/>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="research/publications.html">
-                        <span property="name">Publications</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="2"/>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="research/talks.html">
-                        <span property="name">Talks</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="2"/>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="travel/index.html">
-                        <span property="name">Travel</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="4"/>
-                    </li>
-                    <li property="itemListElement" typeof="ListItem" class="nav-item">
-                        <h4><a property="item" typeof="WebPage" class="nav-link" href="blog/index.html">
-                        <span property="name">Blog</span>
-                        </a>
-                        </h4>
-                        <meta property="position" content="4"/>
-                    </li>
-                </ul>
-            </div>
-            </nav>
-        </div>
-        <div class="parcontent">
-            <section>
-                <div style='clear: both;display: table;'>
-                    <div class="column">
-                        <p><img src="images/profile.jpeg" style="width:20%;height:18%; padding:10pt;" alt="Self-Portrait"/></b></p>
-                    </div>
-                    <div style='float:left; width: 44.44%;padding: 5px;'>
-                        <p>I am a computer scientist at the Heinz-Nixdorf Chair for Distributed Information Systems in the Friedrich Schiller University Jena, Germany.<br>
-                            My research focus on e-Science, Semantic Web and Machine Learning, specifically on improving reproducibile research using provenance, linked data, etc.</p>
-                    </div>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sheeba Samuel</title>
+    <meta property="dc:title" content="Sheeba Samuel">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sheeba Samuel">
+    <meta property="og:url" content="https://w3id.org/reproduceme/research">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Sheeba Samuel's Personal Blog">
+    <meta name="twitter:site" content="@sheebasamuel">
+    <meta name="twitter:creator" content="@sheebasamuel">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="application/ld+json"></script>
+</head>
+
+<body vocab="http://schema.org/" class="d-flex flex-column h-100">
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light">
+            <div class="container-fluid page" typeof="WebPage">
+                <a class="navbar-brand nav-link" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0" typeof="BreadcrumbList">
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link" aria-current="page"
+                                href="research/cv.html">CV</a>
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link"
+                                href="https://w3id.org/reproduceme/research">Research</a>
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link"
+                                href="research/publications.html">Publications</a>
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link" href="research/talks.html">Talks</a>
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link" href="travel/index.html">Travel</a>
+                        </li>
+                        <li property="itemListElement" typeof="ListItem" class="nav-item">
+                            <a property="item" typeof="WebPage" class="nav-link" href="blog/index.html">Blog</a>
+                        </li>
+                    </ul>
                 </div>
-                <h4>Contact</h4>
-                    <b>Email: </b><a href="mailto:sheeba.samuel@uni-jena.de">sheeba.samuel@uni-jena.de</a></p><br>
-            </section>
+            </div>
+        </nav>
+    </header>
+    <div class="parcontent">
+        <section>
+            <div style='clear: both;display: table;'>
+                <div class="column">
+                    <p><img src="images/profile.jpeg" style="width:20%;height:18%; padding:10pt;"
+                            alt="Self-Portrait" /></b></p>
+                </div>
+                <div style='float:left; width: 44.44%;padding: 5px;'>
+                    <p>I am a computer scientist at the Heinz-Nixdorf Chair for Distributed Information Systems in the
+                        Friedrich Schiller University Jena, Germany.<br>
+                        My research focus on e-Science, Semantic Web and Machine Learning, specifically on improving
+                        reproducibile research using provenance, linked data, etc.</p>
+                </div>
+            </div>
+            <h4>Contact</h4>
+            <b>Email: </b><a href="mailto:sheeba.samuel@uni-jena.de">sheeba.samuel@uni-jena.de</a></p><br>
+        </section>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">
+                <div class="licence"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="images/license.png" /></a>
+                </div>
+            </span>
         </div>
-   </body>
+    </footer>
+
+</body>
+
 </html>
