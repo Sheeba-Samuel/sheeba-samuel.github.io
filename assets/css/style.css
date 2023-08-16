@@ -61,10 +61,10 @@ h6 {
 }
 
 #header .profile .website-links a {
-  font-size: 18px;
+  font-size: 27px;
   display: inline-block;
-  background: #212431;
-  color: #ffffff;
+  /* background: #212431; */
+  color: #2c2f3f;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -76,8 +76,8 @@ h6 {
 }
 
 #header .profile .website-links a:hover {
-  background: #149ddd;
-  color: #ffffff;
+  /* background: #149ddd; */
+  color: #2c2f3f;
   text-decoration: none;
 }
 
@@ -305,10 +305,16 @@ section {
 }
 
 /* Custom */
-#header .orcid img {
-  margin: 1px auto;
-  display: block;
-  border: 0px;
+.wikidata img,
+.other-links img {
+  margin-right: 4px;
+  display: inline-block !important;
+  border: 0px !important;
+  width: 35px;
+}
+
+.wikidata img {
+  width: 45px;
 }
 
 .publications,
