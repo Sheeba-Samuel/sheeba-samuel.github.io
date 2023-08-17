@@ -88,7 +88,15 @@ h6 {
 .container {
   padding-left: 30px;
   padding-right: 30px;
+  /* max-width: 1000px; */
 }
+
+/* .sec-container {
+  font-size: 20px;
+  margin-left: 25px;
+  padding-left: 25px;
+} */
+
 
 /* Navigation Menu */
 .nav-menu {
@@ -101,7 +109,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -128,7 +136,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover > a {
+.nav-menu li:hover>a {
   text-decoration: none;
   color: #1b80cf;
 }
@@ -136,7 +144,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover > a i {
+.nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -223,6 +231,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  max-width: 1000px;
 }
 
 #bio h1 {
@@ -289,15 +298,11 @@ section {
   width: 45px;
 }
 
-.publications,
-.talks {
-  padding-left: 10%;
-}
-
 .sec-container {
   padding-left: 10%;
   font-size: 20px;
 }
+
 
 .sw-color {
   color: #1b80cf;
@@ -305,31 +310,41 @@ section {
 
 @media (max-width: 768px) {
   #bio h1 {
-      font-size: 28px;
-      line-height: 36px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   #bio h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 1500px) {
   #bio h1 {
-      font-size: 28px;
-      line-height: 36px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   #bio h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
+
+  .container {
+    padding-left: 20%;
+  }
+
+  .sec-container {
+    padding-left: 20%;
+  }
+
 }
 
-@media (max-width: 1500px) {
+
+@media (max-width: 1199px) {
   #header {
     left: -300px;
   }
@@ -341,21 +356,5 @@ section {
   .container {
     padding-left: 10px;
     padding-right: 10px;
-  }
-}
-
-
-@media (max-width: 1199px) {
-  #header {
-      left: -300px;
-  }
-
-  #main {
-      margin-left: 0;
-  }
-
-  .container {
-      padding-left: 10px;
-      padding-right: 10px;
   }
 }
