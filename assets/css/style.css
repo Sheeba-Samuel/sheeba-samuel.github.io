@@ -86,17 +86,9 @@ h6 {
 }
 
 .container {
-  padding-left: 30px;
-  padding-right: 30px;
-  /* max-width: 1000px; */
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
-/* .sec-container {
-  font-size: 20px;
-  margin-left: 25px;
-  padding-left: 25px;
-} */
-
 
 /* Navigation Menu */
 .nav-menu {
@@ -232,6 +224,7 @@ h6 {
   z-index: 2;
   min-width: 300px;
   max-width: 1000px;
+  padding-right: 0px;
 }
 
 #bio h1 {
@@ -309,40 +302,14 @@ section {
 }
 
 @media (max-width: 768px) {
-  #bio h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #bio h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 1500px) {
-  #bio h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #bio h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-
   .container {
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   .sec-container {
-    padding-left: 20%;
+    padding-left: 1% !important;
   }
-
 }
-
 
 @media (max-width: 1199px) {
   #header {
@@ -353,8 +320,30 @@ section {
     margin-left: 0;
   }
 
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
+  .sec-container {
+    padding-left: 1% !important;
   }
+
+  .container {
+    padding-left: 1% !important;
+  }
+
+  #bio h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  #bio h1 {
+    font-size: 35px;
+  }
+
+  .container {
+    padding-left: 15%;
+  }
+
+  .sec-container {
+    padding-left: 15%;
+  }
+
 }
