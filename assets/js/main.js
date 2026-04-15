@@ -59,4 +59,16 @@
       this.classList.toggle('bi-x-square');
     });
 
+    /**
+     * Highlight active nav link based on current page
+     */
+    const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-menu a').forEach(function(link) {
+      link.classList.remove('active');
+      const href = link.getAttribute('href');
+      if (href === currentFile || (currentFile === '' && href === 'index.html')) {
+        link.classList.add('active');
+      }
+    });
+
 })();

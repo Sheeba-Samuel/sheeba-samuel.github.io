@@ -2,880 +2,357 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Sheeba Samuel</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
-    <script type="application/ld+json"></script>
-
-    <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="Research projects of Sheeba Samuel — reproducibility, knowledge graphs, provenance, explainability of AI, and biodiversity informatics.">
+  <title>Research — Sheeba Samuel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHzLkBBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <i class="bi bi-list responsive-nav-toggle d-xl-none"></i>
 
-    <!--  Responsive nav toggle  -->
-    <i class="bi bi-list responsive-nav-toggle d-xl-none"></i>
+  <header id="header">
+    <div class="sidebar-banner">
+      <img src="assets/img/profile.jpeg" alt="Sheeba Samuel" />
+      <div class="sidebar-name">Sheeba Samuel</div>
+      <p class="sidebar-subtitle">Senior Researcher and Lecturer<br>TU Chemnitz, Germany</p>
+    </div>
+    <div class="sidebar-links-section">
+      <div class="sidebar-links-label">Profiles &amp; Social</div>
+      <div class="sidebar-links">
+        <a href="https://scholar.google.com/citations?user=aqajFkUAAAAJ" target="_blank" title="Google Scholar"><img src="assets/img/scholar.png" alt="Google Scholar" /></a>
+        <a href="https://orcid.org/0000-0002-7981-8504" target="_blank" title="ORCID"><img src="assets/img/orcid.png" alt="ORCID" /></a>
+        <a href="https://www.researchgate.net/profile/Sheeba_Samuel2" target="_blank" title="ResearchGate"><img src="assets/img/researchgate.png" alt="ResearchGate" /></a>
+        <a href="https://www.wikidata.org/wiki/Q58200038" target="_blank" title="Wikidata"><img src="assets/img/wikidata.png" alt="Wikidata" /></a>
+        <a href="https://vsr.informatik.tu-chemnitz.de/about/people/samuel/" target="_blank" title="VSR Group"><img src="assets/img/vsr.png" alt="VSR" /></a>
+        <a href="https://www.fusion.uni-jena.de/people/details/sheeba-samuel" target="_blank" title="FUSION"><img src="assets/img/fusion.png" alt="FUSION" /></a>
+        <a href="https://github.com/Sheeba-Samuel" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/sheeba-samuel-a766534a/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/sheebasamuel" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="index.html" class="nav-link"><i class="bi bi-house"></i> <span>Home</span></a></li>
+        <li><a href="cv.html" class="nav-link"><i class="bi bi-person-vcard"></i> <span>CV</span></a></li>
+        <li><a href="publications.html" class="nav-link"><i class="bi bi-files"></i> <span>Publications</span></a></li>
+        <li><a href="research.html" class="nav-link"><i class="bi bi-search"></i> <span>Research</span></a></li>
+        <li><a href="talks.html" class="nav-link"><i class="bi bi-mic"></i> <span>Talks</span></a></li>
+        <li><a href="travel.html" class="nav-link"><i class="bi bi-camera"></i> <span>Travel</span></a></li>
+        <li><a href="contact.html" class="nav-link"><i class="bi bi-envelope-at"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!--  Header  -->
-    <header id="header">
-        <div class="d-flex flex-column">
-            <div class="profile">
-                <img src="assets/img/profile.jpeg" alt="" class="img-fluid rounded-pill" />
-                <h1 class="sw-color">Sheeba Samuel</h1>
-                <div class="website-links mt-3 text-center">
-                    <a href="https://vsr.informatik.tu-chemnitz.de/about/people/samuel/" class="other-links"
-                        target="_blank">
-                        <img src="assets/img/vsr.png" alt="VSR" /></a>
-                    <a href="https://www.fusion.uni-jena.de/people/details/sheeba-samuel" class="other-links"
-                        target="_blank">
-                        <img src="assets/img/fusion.png" alt="FUSION" /></a>
+  <main id="main">
+    <section class="page-section">
+      <div class="container">
 
-                    <a href="https://orcid.org/0000-0002-7981-8504" class="other-links" target="_blank">
-                        <img src="assets/img/orcid.png" alt="ORCID iD" />
-                    </a>
-                    <a href="https://github.com/Sheeba-Samuel" class="github" target="_blank"><i
-                            class="bi bi-github"></i></a>
-                    <a href="https://www.wikidata.org/wiki/Q58200038" class="other-links" target="_blank">
-                        <img src="assets/img/wikidata.png" alt="Wikidata" />
-                        <br>
-                        <a href="https://scholar.google.com/citations?user=aqajFkUAAAAJ" class="other-links"
-                            target="_blank">
-                            <img src="assets/img/scholar.png" alt="Google Scholar" />
-                        </a>
-                        <a href="https://www.researchgate.net/profile/Sheeba_Samuel2" class="other-links"
-                            target="_blank"><img src="assets/img/researchgate.png" alt="ResearchGate" /></a>
-
-                        <a href="https://twitter.com/sheebasamuel" class="twitter" target="_blank"><i
-                                class="bi bi-twitter"></i></a>
-
-                        <a href="https://www.linkedin.com/in/sheeba-samuel-a766534a/" class="linkedin"
-                            target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </a>
-                </div>
-            </div>
-            <nav id="navbar" class="nav-menu navbar">
-                <ul>
-                    <li><a href="index.html" class="nav-link active"><i class="bi bi-house"></i> <span>Home</span></a>
-                    </li>
-                    <li><a href="cv.html" class="nav-link"><i class="bi bi-person-vcard"></i> <span>CV</span></a></li>
-                    <li><a href="publications.html" class="nav-link"><i class="bi bi-files"></i>
-                            <span>Publications</span></a></li>
-                    <li><a href="research.html" class="nav-link"><i class="bi bi-search"></i> <span>Research</span></a>
-                    </li>
-                    <li><a href="talks.html" class="nav-link"><i class="bi bi-mic"></i> <span>Talks</span></a></li>
-                    <li><a href="travel.html" class="nav-link"><i class="bi bi-camera"></i> <span>Travel</span></a></li>
-                    <li><a href="contact.html" class="nav-link"><i class="bi bi-envelope-at"></i>
-                            <span>Contact</span></a></li>
-                </ul>
-            </nav>
+        <div class="section-title">
+          <h2>Research</h2>
         </div>
-    </header><!-- End Header -->
 
-    <!--  Research  -->
-    <section id="research" class="sec-container">
-        <div class="container">
+        <p style="font-size:16px; margin-bottom:36px; max-width:820px;">
+          Our research enhances the reproducibility, explainability, and interoperability of scientific experiments
+          and machine learning models across interdisciplinary domains — including biomedicine, biodiversity,
+          and data science — using provenance, linked data, and knowledge graphs.
+        </p>
 
-            <div class="section-title">
-                <h2>Research</h2>
+        <!-- Active Research -->
+        <div class="cv-section-title"><i class="bi bi-activity me-2"></i>Active Research</div>
+
+        <div class="research-project-card status-active" itemscope itemtype="http://schema.org/Article">
+          <div class="rp-tags">
+            <span class="rp-tag">Reproducibility</span>
+            <span class="rp-tag">Jupyter Notebooks</span>
+            <span class="rp-tag">Biomedical</span>
+            <span class="rp-tag">Containerization</span>
+          </div>
+          <div class="rp-title">Computational Reproducibility of Jupyter Notebooks</div>
+          <div class="rp-period">2021 – present <span class="status-badge ongoing">Ongoing</span></div>
+          <div class="rp-desc" itemprop="articleBody">
+            Jupyter notebooks bundle executable code with documentation and output, making them a popular mechanism
+            for sharing computational workflows. We assess computational reproducibility at scale for notebooks
+            associated with biomedical publications — mining PubMed Central full texts, locating notebooks on
+            GitHub, and re-executing them in environments as close to the original as possible. Our study covers
+            over 27,000 notebooks from 2,660 repositories across two independent runs, identifying key factors
+            that influence reproducibility and trends in notebook quality over time. Recent work extends this
+            to automated containerization to close the reproducibility gap.
+          </div>
+          <div class="rp-resources">
+            <a href="https://doi.org/10.1093/gigascience/giad113" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>GigaScience 2024</a>
+            <a href="https://arxiv.org/abs/2604.01072" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>Containerization Preprint 2026</a>
+            <a href="https://github.com/fusion-jena/computational-reproducibility-pmc" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+            <a href="https://doi.org/10.5281/zenodo.6802158" target="_blank"><i class="bi bi-database me-1"></i>Dataset</a>
+          </div>
+        </div>
+
+        <div class="research-project-card status-active">
+          <div class="rp-tags">
+            <span class="rp-tag tag-ontology">Ontology</span>
+            <span class="rp-tag tag-ontology">Semantic Web</span>
+            <span class="rp-tag">Reproducibility</span>
+            <span class="rp-tag">Knowledge Graphs</span>
+          </div>
+          <div class="rp-title">ReproduceMeON — Ontology Network for Reproducibility</div>
+          <div class="rp-period">2021 – present <span class="status-badge ongoing">Ongoing</span></div>
+          <div class="rp-desc">
+            ReproduceMeON is an ontology network for the reproducibility of scientific studies, bringing together
+            foundational and core ontologies that capture different aspects of scientific experiment provenance.
+            The development uses a semi-automated approach combining ontology matching techniques to select and
+            develop core ontologies for each sub-domain — including scientific experiments, machine learning,
+            computational workflows, and microscopy — and links them to existing domain ontologies.
+          </div>
+          <div class="rp-resources">
+            <a href="http://ceur-ws.org/Vol-2969/paper64-OntoCom.pdf" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>FOIS 2021 Paper</a>
+            <a href="https://github.com/fusion-jena/ReproduceMeON" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+            <a href="https://doi.org/10.6084/m9.figshare.16610386.v1" target="_blank"><i class="bi bi-easel me-1"></i>Slides</a>
+          </div>
+        </div>
+
+        <div class="research-project-card status-active">
+          <div class="rp-tags">
+            <span class="rp-tag tag-ai">AI</span>
+            <span class="rp-tag tag-ai">Deep Learning</span>
+            <span class="rp-tag">Reproducibility</span>
+            <span class="rp-tag">FAIR Data</span>
+          </div>
+          <div class="rp-title">Reproducibility of AI</div>
+          <div class="rp-period">2021 – present <span class="status-badge ongoing">Ongoing</span></div>
+          <div class="rp-desc">
+            Machine learning is an increasingly important scientific tool, but ML experiments face a reproducibility
+            crisis similar to other disciplines. This project investigates factors beyond source code and dataset
+            availability that affect ML reproducibility, proposes ways to apply FAIR data practices to ML
+            workflows, and develops methodologies for end-to-end reproducibility of ML pipelines — including
+            custom loss functions for robust neural networks and systematic benchmarks for deep learning
+            reproducibility in biodiversity research.
+          </div>
+          <div class="rp-resources">
+            <a href="https://doi.org/10.1007/978-3-030-80960-7_17" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>IPAW 2021</a>
+            <a href="https://doi.org/10.7717/peerj-cs.2618" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>PeerJ CS 2025</a>
+            <a href="https://doi.org/10.48550/arXiv.2601.00578" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>Preprint 2026</a>
+          </div>
+        </div>
+
+        <div class="research-project-card status-active">
+          <div class="rp-tags">
+            <span class="rp-tag tag-ai">XAI</span>
+            <span class="rp-tag tag-ai">Deep Learning</span>
+            <span class="rp-tag tag-ontology">Knowledge Graphs</span>
+            <span class="rp-tag">Plant Disease</span>
+          </div>
+          <div class="rp-title">Explainability of AI</div>
+          <div class="rp-period">2021 – present <span class="status-badge ongoing">Ongoing</span></div>
+          <div class="rp-desc">
+            Deep learning models are widely used in scientific domains, but their internal mechanisms remain opaque,
+            hindering validation and improvement. This project develops interpretability methods that leverage
+            domain knowledge — particularly ontologies and knowledge graphs — to produce human-understandable
+            explanations extracted directly from neural networks. Current focus is on plant disease classification
+            for sustainable agriculture, with extensions to multimodal large language models.
+          </div>
+          <div class="rp-resources">
+            <a href="https://doi.org/10.1007/978-3-031-60626-7_16" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>ESWC 2024</a>
+            <a href="https://doi.org/10.5220/0011667900003417" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>VISAPP 2023</a>
+            <a href="https://doi.org/10.48550/arXiv.2412.07408" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>Preprint 2024</a>
+            <a href="https://doi.org/10.48550/arXiv.2409.18753" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>LLM Preprint 2024</a>
+          </div>
+        </div>
+
+        <!-- Past Projects -->
+        <div class="cv-section-title mt-4"><i class="bi bi-archive me-2"></i>Past Projects</div>
+
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-tool">Tool</span>
+                <span class="rp-tag">ML</span>
+                <span class="rp-tag">Provenance</span>
+                <span class="rp-tag">JupyterLab</span>
+              </div>
+              <div class="rp-title">MLProvLab</div>
+              <div class="rp-period">2021 – 2023 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                A JupyterLab extension that automatically tracks, manages, compares, and visualizes the provenance
+                of machine learning notebooks — identifying relationships between data and models in ML scripts,
+                tracking metadata including datasets and modules used, and enabling comparison of different
+                experimental runs.
+              </div>
+              <div class="rp-resources">
+                <a href="https://doi.org/10.18420/BTW2023-66" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>BTW 2023</a>
+                <a href="https://github.com/fusion-jena/MLProvLab/" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-lg-16">
+          </div>
 
-                    <span itemscope itemtype="http://schema.org/Article">
-                        <!-- <h3><b itemprop="articleSection">Research on reproducibility of scientific experiments</b>
-                    </h3> -->
-                        <p itemprop="articleBody">Our research provides an overview of the work done to enhance the
-                            reproducibility, explainability, and interoperability of scientific experiments, machine
-                            learning and deep learning models across interdisciplinary domains including
-                            biomedicine, biodiversity, biology, and data science.</p>
-                    </span>
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-tool">Tool</span>
+                <span class="rp-tag">Jupyter Notebooks</span>
+                <span class="rp-tag">Reproducibility</span>
+                <span class="rp-tag">Provenance</span>
+              </div>
+              <div class="rp-title">ReproduceMeGit</div>
+              <div class="rp-period">2020 – 2022 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                A visualization tool for analyzing the reproducibility of Jupyter notebooks on GitHub repositories.
+                Users can directly assess reproducibility of any repository containing Jupyter notebooks,
+                viewing counts of successful, exception-throwing, and result-differing notebooks — with
+                RDF provenance export via ProvBook integration.
+              </div>
+              <div class="rp-resources">
+                <a href="https://doi.org/10.1007/978-3-030-80960-7_12" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>IPAW 2021</a>
+                <a href="https://doi.org/10.6084/m9.figshare.12084393.v1" target="_blank"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                <a href="https://github.com/fusion-jena/ReproduceMeGit" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="col-md-16">
-                        <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                            <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-primary-emphasis">Dataset, Jupyter
-                                    notebooks, Computational reproducibility</strong>
-                                <h3 class="mb-0"><b>Computational reproducibility of Jupyter notebooks from
-                                        biomedical publications</b></h3>
-                                <div class="mb-1 text-body-secondary">2021-</div>
-                                <p class="card-text">Jupyter notebooks facilitate the bundling of executable code
-                                    with its documentation and output in one interactive environment, and they
-                                    represent a popular mechanism to document and share computational workflows. The
-                                    reproducibility of computational aspects of research is a key component of
-                                    scientific reproducibility but has not yet been assessed at scale for Jupyter
-                                    notebooks associated with biomedical publications. We address computational
-                                    reproducibility at two levels: First, using fully automated workflows, we
-                                    analyzed the computational reproducibility of Jupyter notebooks related to
-                                    publications indexed in PubMed Central. We identified such notebooks by mining
-                                    the articles full text, locating them on GitHub and re-running them in an
-                                    environment as close to the original as possible. We documented reproduction
-                                    success and exceptions and explored relationships between notebook
-                                    reproducibility and variables related to the notebooks or publications. Second,
-                                    this study represents a reproducibility attempt in and of itself, using
-                                    essentially the same methodology twice on PubMed Central over two years. Out of
-                                    27271 notebooks from 2660 GitHub repositories associated with 3467 articles,
-                                    22578 notebooks were written in Python, including 15817 that had their
-                                    dependencies declared in standard requirement files and that we attempted to
-                                    re-run automatically. For 10388 of these, all declared dependencies could be
-                                    installed successfully, and we re-ran them to assess reproducibility. Of these,
-                                    1203 notebooks ran through without any errors, including 879 that produced
-                                    results identical to those reported in the original notebook and 324 for which
-                                    our results differed from the originally reported ones. Running the other
-                                    notebooks resulted in exceptions. We zoom in on common problems, highlight
-                                    trends and discuss potential improvements to Jupyter-related workflows
-                                    associated with biomedical publications.
-                                </p>
-                                <div class="accordion" id="accordionPanelsStayOpenExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseCR"
-                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseCR">
-                                                <b>Resources</b>
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseCR" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p><b>Relevant Publications: </b>
-                                                <ul>
-                                                    <li><b>Computational reproducibility of Jupyter notebooks
-                                                            from biomedical publications</b><br>
-                                                        Sheeba Samuel, Daniel Mietchen, 2023 (<a
-                                                            href="http://arxiv.org/abs/2308.07333">Paper</a>)
-                                                    </li>
-                                                    <li><b>Computational reproducibility of Jupyter notebooks
-                                                            from biomedical publications</b><br>
-                                                        Sheeba Samuel, Daniel Mietchen, [arXiv preprint], 2022 (<a
-                                                            href="https://arxiv.org/abs/2209.04308">Paper</a>)
-                                                    </li>
-                                                </ul>
-                                                <p><b>Code: </b><a property="item" typeof="WebPage"
-                                                        href="https://github.com/fusion-jena/computational-reproducibility-pmc">
-                                                        https://github.com/fusion-jena/computational-reproducibility-pmc</a>
-                                                </p>
-                                                <p><b>Initial run data: </b><a property="item" typeof="WebPage"
-                                                        href="https://doi.org/10.5281/zenodo.6802158">
-                                                        https://doi.org/10.5281/zenodo.6802158</a>
-                                                </p>
-                                                <p><b>Re-run data: </b><a property="item" typeof="WebPage"
-                                                        href="https://doi.org/10.5281/zenodo.8226725">
-                                                        https://doi.org/10.5281/zenodo.8226725</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-tool">Tool</span>
+                <span class="rp-tag tag-ontology">Semantic Web</span>
+                <span class="rp-tag">Jupyter Notebooks</span>
+                <span class="rp-tag">Provenance</span>
+              </div>
+              <div class="rp-title">ProvBook</div>
+              <div class="rp-period">2018 – 2019 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                A Jupyter Notebook extension that captures and visualizes provenance over time using the
+                REPRODUCE-ME ontology (extended from PROV-O and P-Plan). Enables sharing notebooks with their
+                RDF provenance, comparing results across executions, and SPARQL querying of experiment histories.
+              </div>
+              <div class="rp-resources">
+                <a href="http://ceur-ws.org/Vol-2180/paper-57.pdf" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>ISWC 2018</a>
+                <a href="https://doi.org/10.6084/m9.figshare.6401096.v1" target="_blank"><i class="bi bi-play-circle me-1"></i>Demo</a>
+                <a href="https://github.com/Sheeba-Samuel/ProvBook" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="row mb-2">
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Ontology, Semantic
-                                        Web, Machine Learning</strong>
-                                    <h3 class="mb-0"><b>ReproduceMe Ontology Network (ReproduceMeON)</b></h3>
-                                    <div class="mb-1 text-body-secondary">2021-present</div>
-                                    <p class="card-text">ReproduceMeON is an ontology network for the reproducibility of
-                                        scientific studies.
-                                        The ontology network, which includes the foundational and core ontologies,
-                                        attempts to bring together
-                                        different aspects of the provenance of scientific studies from various
-                                        applications to support their
-                                        reproducibility.
-                                        The repository provides the development process of ReproduceMeON and the design
-                                        methodology of developing
-                                        core ontologies for the provenance of scientific experiments and machine
-                                        learning using a semi-automated
-                                        approach.
-                                        The repository provides a systematic literature review in different areas in
-                                        provenance, scientific
-                                        experiments, Machine Learning, computational, microscopy, and scientific
-                                        workflows.
-                                        We also provide the state of the art ontolgies used for the development of
-                                        ReproduceMeON.
-                                        Ontology matching techniques are used to select and develop core ontology for
-                                        each sub-domain and link to
-                                        other ontologies in the sub-domain.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseRON" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapseRON">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseRON" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>Towards an Ontology Network for the
-                                                                reproducibility of
-                                                                scientific studies.</b><br>
-                                                            Sheeba Samuel, Alsayed Algergawy, Birgitta König-Ries, 8th
-                                                            International Workshop on Ontologies and
-                                                            Conceptual Modeling, co-located with FOIS, 2021 (<a
-                                                                href="http://ceur-ws.org/Vol-2969/paper64-OntoCom.pdf">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/conf/jowo/SamuelAK21.html?view=bibtex">Bibtex</a>)
-                                                            </p>
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Code: </b><a property="item" typeof="WebPage"
-                                                            href="https://github.com/fusion-jena/ReproduceMeON">
-                                                            https://github.com/fusion-jena/ReproduceMeON</a>
-                                                    </p>
-                                                    <p><b>Slides: </b><a property="item" typeof="WebPage"
-                                                            href="https://doi.org/10.6084/m9.figshare.16610386.v1">https://doi.org/10.6084/m9.figshare.16610386.v1</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag">Platform</span>
+                <span class="rp-tag tag-ontology">Semantic Web</span>
+                <span class="rp-tag">Provenance</span>
+                <span class="rp-tag">Reproducibility</span>
+              </div>
+              <div class="rp-title">CAESAR — Collaborative Environment for Scientific Analysis with Reproducibility</div>
+              <div class="rp-period">2016 – 2019 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                An end-to-end provenance management framework for scientific experiments. CAESAR allows scientists
+                to capture, manage, query, and visualize the complete path of an experiment — covering both
+                computational and non-computational steps — in an interoperable way.
+              </div>
+              <div class="rp-resources">
+                <a href="https://peerj.com/articles/cs-921/" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>PeerJ CS 2022</a>
+                <a href="https://github.com/CaesarReceptorLight" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-ontology">Ontology</span>
+                <span class="rp-tag tag-ontology">Semantic Web</span>
+                <span class="rp-tag">Provenance</span>
+              </div>
+              <div class="rp-title">REPRODUCE-ME Ontology</div>
+              <div class="rp-period">2016 – 2019 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                A generic data model and ontology for representing scientific experiments with full provenance.
+                The model captures eight experiment components (Data, Agent, Activity, Plan, Step, Setting,
+                Instrument, Material) and extends PROV-O and P-Plan to enable end-to-end reproducibility
+                from experiment design through to result.
+              </div>
+              <div class="rp-resources">
+                <a href="https://doi.org/10.1186/s13326-021-00253-1" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>J. Biomed. Semantics 2022</a>
+                <a href="https://doi.org/10.1007/978-3-319-70407-4_4" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>ESWC 2017</a>
+                <a href="https://w3id.org/reproduceme/" target="_blank"><i class="bi bi-link-45deg me-1"></i>Ontology Docs</a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="row mb-2">
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Ontology, Semantic
-                                        Web</strong>
-                                    <h3 class="mb-0"><b>The REPRODUCE-ME Data Model and Ontology</b></h3>
-                                    <div class="mb-1 text-body-secondary">2016-2019</div>
-                                    <p class="card-text">The REPRODUCE-ME Data Model is a generic data model for the
-                                        representation of
-                                        scientific experiments with their provenance information.
-                                        The aim of this model is to capture the general elements of scientific
-                                        experiments for their
-                                        understandability and reproducibility.
-                                        An Experiment is considered as the central point of the REPRODUCE-ME data model.
-                                        The model consists of eight
-                                        components: Data, Agent, Activity, Plan, Step,
-                                        Setting, Instrument, Material. The REPRODUCE-ME Data Model forms a basis for the
-                                        REPRODUCE-ME ontology.
-                                        The REPRODUCE-ME ontology extended from PROV-O and P-Plan is used to represent
-                                        the whole picture of an
-                                        experiment describing the path it took from its design to result.
-                                        We aim to enable end-to-end reproducibility of scientific experiments by
-                                        capturing and representing
-                                        the complete provenance of a scientific experiment using the REPRODUCE-ME
-                                        ontology.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseRME" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapseRME">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseRME" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>End-to-End Provenance Representation for the
-                                                                Understandability and Reproducibility of Scientific
-                                                                Experiments using a Semantic Approach</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, Journal of Biomedical
-                                                            Semantics, 2022 (<a
-                                                                href="https://doi.org/10.1186/s13326-021-00253-1">Paper</a>,
-                                                            <a
-                                                                href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-021-00253-1#citeas">Bibtex</a>)
-                                                        </li>
-                                                        <li><b>REPRODUCE-ME: Ontology-based Data Access for
-                                                                Reproducibility of Microscopy Experiments</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, 14th Extended Semantic
-                                                            Web Conference (ESWC) 2018 Poster Track, 28 May-1
-                                                            June, 2017, Portoroz, Slovenia (<a
-                                                                href="https://doi.org/10.1007/978-3-319-70407-4_4">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/conf/esws/SamuelK17.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Ontology Documentation:</b><a property="item" typeof="WebPage"
-                                                            href="https://w3id.org/reproduceme/">https://w3id.org/reproduceme/</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Tool, Jupyter
-                                        notebooks, Provenance, Semantic Web</strong>
-                                    <h3 class="mb-0"><b>ProvBook</b></h3>
-                                    <div class="mb-1 text-body-secondary">2018-2019</div>
-                                    <p class="card-text">ProvBook, an extension of Jupyter Notebook, to capture and view
-                                        the
-                                        provenance over the course of time.
-                                        It also allows the user to share a notebook along with its provenance in RDF and
-                                        also convert it back to a
-                                        notebook.
-                                        We use the REPRODUCE-ME ontology extended from PROV-O and P-Plan to describe the
-                                        provenance of a notebook.
-                                        This helps the scientists to compare their previous results with the current
-                                        ones, check whether the
-                                        experiments produce the results as expected and query the sequence of executions
-                                        using SPARQL.
-                                        The notebook data in RDF can be used in combination with the experiments that
-                                        used them and help to get a
-                                        track of the complete path of the scientific experiments.</p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapsePB" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapsePB">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapsePB" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>ProvBook: Provenance-based Semantic Enrichment of
-                                                                Interactive Notebooks for Reproducibility</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, The 17th International
-                                                            Semantic Web Conference (ISWC) 2018 Demo Track,
-                                                            8-12 October, 2018, Monterey, California, USA (</a><a
-                                                                href="http://ceur-ws.org/Vol-2180/paper-57.pdf">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/conf/semweb/SamuelK18.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Demo:</b> <a property="item" typeof="WebPage"
-                                                            href="https://doi.org/10.6084/m9.figshare.6401096.v1">
-                                                            https://doi.org/10.6084/m9.figshare.6401096.v1</a>
-                                                    </p>
-                                                    <p><b>Code:</b> <a property="item" typeof="WebPage"
-                                                            href="https://github.com/Sheeba-Samuel/ProvBook">
-                                                            https://github.com/Sheeba-Samuel/ProvBook</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-survey">Survey</span>
+                <span class="rp-tag">Research Practices</span>
+                <span class="rp-tag">Reproducibility</span>
+              </div>
+              <div class="rp-title">Reproducibility Survey</div>
+              <div class="rp-period">2016 – 2019 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                An exploratory study surveying researchers across disciplines to understand scientific experiments
+                and research practices relating to reproducibility. Findings identified a reproducibility crisis
+                and strong need for sharing data, code, methods, and negative results — with insufficient
+                metadata and incomplete methods being primary barriers.
+              </div>
+              <div class="rp-resources">
+                <a href="https://peerj.com/articles/11140/" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>PeerJ 2021</a>
+                <a href="http://doi.org/10.5281/zenodo.3862597" target="_blank"><i class="bi bi-database me-1"></i>Data</a>
+                <a href="https://mybinder.org/v2/gh/fusion-jena/ReproducibilitySurvey/master" target="_blank"><i class="bi bi-bar-chart me-1"></i>Analysis</a>
+              </div>
+            </div>
+          </div>
 
-                    <div class="row mb-2">
-                        <div class="col-md-16">
-                            <div
-                                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Research Data Management
-                                        Platform, Semantic Web, Computational reproducibility</strong>
-                                    <h3 class="mb-0"><b>CAESAR-A Collaborative Environment for Scientific Analysis with
-                                            Reproducibility</b></h3>
-                                    <div class="mb-1 text-body-secondary">2016-2019</div>
-                                    <p class="card-text mb-auto">CAESAR is a framework for the end-to-end provenance
-                                        management of scientific
-                                        experiments. This collaborative framework allows scientists
-                                        to capture, manage, query and visualize the complete path of a scientific
-                                        experiment
-                                        consisting of computational and non-computational steps in an interoperable way.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseCaesar"
-                                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseCaesar">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseCaesar" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>A collaborative semantic-based provenance
-                                                                management platform for reproducibility.</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, PeerJ Computer Science,
-                                                            2022 (<a href="https://peerj.com/articles/cs-921/">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/journals/peerj-cs/SamuelK22.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Code:</b><a property="item" typeof="WebPage"
-                                                            href="https://github.com/CaesarReceptorLight">
-                                                            https://github.com/CaesarReceptorLight</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-16">
-                            <div
-                                class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-success-emphasis">Survey, Research
-                                        Practices</strong>
-                                    <h3 class="mb-0"><b>Reproducibility Survey</b></h3>
-                                    <div class="mb-1 text-body-secondary">2016-2019</div>
-                                    <p class="mb-auto">The “Reproducibility Crisis”, where researchers find difficulty
-                                        in reproducing
-                                        published results, is currently faced by several disciplines.
-                                        To understand the underlying problem in the context of the reproducibility
-                                        crisis, it is important to first
-                                        know the different research practices followed in their domain and the factors
-                                        that hinder reproducibility.
-                                        We performed an exploratory study by conducting a survey addressed to
-                                        researchers representing a range of
-                                        disciplines to understand scientific experiments and research practices for
-                                        reproducibility.
-                                        The survey findings identify a reproducibility crisis and a strong need for
-                                        sharing data, code, methods,
-                                        steps, and negative and positive results.
-                                        Insufficient metadata, lack of publicly available data, and incomplete
-                                        information in study methods are
-                                        considered to be the main reasons for poor reproducibility.
-                                        The survey results also address a wide number of research questions on the
-                                        reproducibility of scientific
-                                        results.</p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseSurvey"
-                                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseSurvey">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseSurvey" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>Understanding experiments and research practices
-                                                                for
-                                                                reproducibility: an exploratory study</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, PeerJ 9:e11140, 2021 (<a
-                                                                href="https://peerj.com/articles/11140/">Paper</a>, <a
-                                                                href="https://peerj.com/articles/11140.bib">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Data Availability: </b><a property="item" typeof="WebPage"
-                                                            href="http://doi.org/10.5281/zenodo.3862597">http://doi.org/10.5281/zenodo.3862597</a>
-                                                    </p>
-                                                    <p><b>Analysis: </b><a property="item" typeof="WebPage"
-                                                            href="https://mybinder.org/v2/gh/fusion-jena/ReproducibilitySurvey/master">
-                                                            https://mybinder.org/v2/gh/fusion-jena/ReproducibilitySurvey/master</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="col-lg-6">
+            <div class="research-project-card status-past h-100">
+              <div class="rp-tags">
+                <span class="rp-tag tag-bio">Biodiversity</span>
+                <span class="rp-tag tag-ontology">Ontology</span>
+                <span class="rp-tag">NER</span>
+                <span class="rp-tag">Semantic Web</span>
+              </div>
+              <div class="rp-title">Ontology and Corpus Development for Biodiversity</div>
+              <div class="rp-period">2021 – 2022 <span class="status-badge completed">Completed</span></div>
+              <div class="rp-desc">
+                A core ontology (BiodivOnto) for biodiversity linking foundational and domain-specific ontologies,
+                paired with two gold-standard corpora (BiodivNERE) for Named Entity Recognition and Relation
+                Extraction generated from biodiversity dataset metadata and publication abstracts.
+              </div>
+              <div class="rp-resources">
+                <a href="https://doi.org/10.3897/BDJ.10.e89481" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>BiodivNERE BDJ 2022</a>
+                <a href="https://doi.org/10.1007/978-3-030-80418-3_1" target="_blank"><i class="bi bi-file-earmark-text me-1"></i>BiodivOnto ESWC 2021</a>
+                <a href="https://github.com/fusion-jena/BiodivNERE" target="_blank"><i class="bi bi-github me-1"></i>NER Code</a>
+                <a href="https://github.com/fusion-jena/BiodivOnto" target="_blank"><i class="bi bi-github me-1"></i>Ontology Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                    <div class="row mb-2">
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Tool, Jupyter notebooks,
-                                        Provenance, Computational reproducibility</strong>
-                                    <h3 class="mb-0"><b>ReproduceMeGit</b></h3>
-                                    <div class="mb-1 text-body-secondary">2020-2022</div>
-                                    <p class="card-text">ReproduceMeGit is a visualization tool for analyzing the
-                                        reproducibility of Jupyter
-                                        Notebooks.
-                                        This will help repository users and owners to reproduce and directly analyze and
-                                        assess the reproducibility
-                                        of any GitHub repository containing Jupyter Notebooks.
-                                        The tool provides information on the number of notebooks that were successfully
-                                        reproducible, those that
-                                        resulted in exceptions, those with different results from the original
-                                        notebooks, etc.
-                                        Each notebook in the repository along with the provenance information of its
-                                        execution can also be exported
-                                        in RDF with the integration of the ProvBook tool.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseRGit" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapseRGit">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseRGit" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>ReproduceMeGit: A Visualization Tool for Analyzing
-                                                                Reproducibility of Jupyter Notebooks.</b><br>
-                                                            Sheeba Samuel, Birgitta König-Ries, Provenance and
-                                                            Annotation of Data and Processes - 8th and 9th International
-                                                            Provenance and Annotation Workshop, IPAW 2020 + IPAW 2021
-                                                            (<a href="https://doi.org/10.1007/978-3-030-80960-7_12">Paper,
-                                                                <a
-                                                                    href="https://dblp.dagstuhl.de/rec/conf/ipaw/SamuelK21.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Demo: </b><a property="item" typeof="WebPage"
-                                                            href="https://doi.org/10.6084/m9.figshare.12084393.v1">
-                                                            https://doi.org/10.6084/m9.figshare.12084393.v1</a>
-                                                    </p>
-                                                    <p><b>Code: </b><a property="item" typeof="WebPage"
-                                                            href="https://github.com/fusion-jena/ReproduceMeGit">
-                                                            https://github.com/fusion-jena/ReproduceMeGit</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Acknowledgements -->
+        <div class="mt-4 pt-2" style="font-size:14px; color:#777; border-top:1px solid #eef4fb; padding-top:16px;">
+          <strong>Acknowledgements:</strong> This research is supported in part by the Deutsche Forschungsgemeinschaft (DFG) in Project Z2 of CRC/TRR 166 ReceptorLight, the Carl Zeiss Foundation (K3 project), the Freistaat Thüringen, the Michael Stifel Centre Jena (MSCJ), and the Friedrich Schiller University Jena (IMPULSE funding: IP 2020-10).
+        </div>
 
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Tool, Machine Learning,
-                                        Data
-                                        Science, Jupyter
-                                        notebooks, Provenance</strong>
-                                    <h3 class="mb-0"><b>MLProvLab</b></h3>
-                                    <div class="mb-1 text-body-secondary">2021-2023</div>
-                                    <p class="card-text"> MLProvLab is a JupyterLab extension to track, manage, compare,
-                                        and visualize the provenance of machine
-                                        learning notebooks.
-                                        The tool is designed to help data scientists and ML practitioners to
-                                        automatically identify the
-                                        relationships between data and models in ML scripts.
-                                        It efficiently and automatically tracks the provenance metadata, including
-                                        datasets and modules used.
-                                        It provides users the facility to compare different runs of ML experiments,
-                                        thereby ensuring a way to help
-                                        them make their decisions.
-                                        The tool helps researchers and data scientists to collect more information on
-                                        their experimentation and
-                                        interact with them.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseMLlab" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapseMLlab">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseMLlab" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>MLProvLab: Provenance Management for Data Science
-                                                                Notebooks</b><br>
-                                                            Dominik Kerzel, Birgitta König-Ries, Sheeba Samuel, DE4DS
-                                                            Workshop co-located with BTW 2023 , 2023 (<a
-                                                                href="https://doi.org/10.18420/BTW2023-66">Paper</a>, <a
-                                                                href="https://dblp.org/rec/conf/btw/KerzelKS23.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                        <li><b>Towards Tracking Provenance from Machine Learning
-                                                                Notebooks.</b><br>
-                                                            Dominik Kerzel, Sheeba Samuel, Birgitta König-Ries, 13th
-                                                            International Conference on Knowledge Discovery and
-                                                            Information Retrieval (KDIR), 2021 (<a
-                                                                href="https://doi.org/10.5220/0010681400003064">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/conf/ic3k/KerzelSK21.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Code: </b><a property="item" typeof="WebPage"
-                                                            href="https://github.com/fusion-jena/MLProvLab/">
-                                                            https://github.com/fusion-jena/MLProvLab/</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+    </section>
 
-                    <div class="col-md-16">
-                        <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                            <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-primary-emphasis">AI, Machine Learning, Deep
-                                    Learning</strong>
-                                <h3 class="mb-0"><b>Reproducibility of AI</b></h3>
-                                <div class="mb-1 text-body-secondary">2021-</div>
-                                <p class="card-text">Machine learning (ML) is an increasingly important scientific tool
-                                    supporting decision making and knowledge generation in numerous
-                                    fields. With this, it also becomes more and more important that the
-                                    results of ML experiments are reproducible. Unfortunately, that
-                                    often is not the case. Rather, ML, similar to many other
-                                    disciplines, faces a reproducibility crisis. In this paper, we
-                                    describe our goals and initial steps in supporting the end-to-end
-                                    reproducibility of ML pipelines. We investigate which factors beyond
-                                    the availability of source code and datasets influence
-                                    reproducibility of ML experiments. We propose ways to apply FAIR
-                                    data practices to ML workflows.
-                                </p>
-                                <div class="accordion" id="accordionPanelsStayOpenExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseAI"
-                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseAI">
-                                                <b>Resources</b>
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseAI" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p><b>Relevant Publications: </b>
-                                                <ul>
-                                                    <li><b>Machine Learning Pipelines: Provenance,
-                                                            Reproducibility and FAIR Data Principles.</b><br>
-                                                        Sheeba Samuel, Frank Löffler, Birgitta König-Ries,
-                                                        Provenance and Annotation of Data and Processes - 8th and 9th
-                                                        International
-                                                        Provenance and Annotation Workshop, IPAW 2020 + IPAW 2021 (<a
-                                                            href="https://doi.org/10.1007/978-3-030-80960-7_17">Paper, <a
-                                                                href="https://dblp.dagstuhl.de/rec/conf/ipaw/SamuelLK21.html?view=bibtex">Bibtex</a>)
-                                                    </li>
-                                                    <li><b>[RE] Nondeterminism and Instability in Neural
-                                                            Network Optimization</b><br>
-                                                        Waqas Ahmed, Sheeba Samuel, ML Reproducibility Challenge 2021,
-                                                        ReScience journal, 2022 (<a
-                                                            href="https://doi.org/10.5281/zenodo.6574623">Paper</a>, <a
-                                                            href="https://zenodo.org/record/6574623/export/hx#.YyckqNJBxH4">Bibtex</a>)
-                                                    </li>
-                                                    <li><b>A Unified Framework for Reproducibility in Deep
-                                                            Learning</b><br>
-                                                        Waqas Ahmed, Doctoral Consortium
-                                                        ECAI, 2023 (to appear)
-                                                    </li>
-                                                    <li>
-                                                        <b>How Reproducible are the Results Gained with the
-                                                            Help of Deep Learning Methods in Biodiversity
-                                                            Research?</b>
-                                                        Waqas Ahmed, Vamsi Krishna Kommineni, Birgitta König-Ries,
-                                                        Sheeba Samuel, TDWG, 9-13th October 2023,
-                                                        Australia [Abstract] (<a
-                                                            href="https://www.tdwg.org/conferences/2023/session-list/#sym05">Paper</a>)
-                                                    </li>
-                                                </ul>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-16">
-                        <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                            <div class="col p-4 d-flex flex-column position-static">
-                                <strong class="d-inline-block mb-2 text-primary-emphasis">AI, Deep
-                                    Learning, Interpretability</strong>
-                                <h3 class="mb-0"><b>Explainability of AI</b></h3>
-                                <div class="mb-1 text-body-secondary">2021-</div>
-                                <p class="card-text">Deep learning models have transformed various scientific fields,
-                                    including medical image analysis, drug design, speech recognition, and material
-                                    inspection. While these models are widely used, their internal mechanisms remain
-                                    complex and not well understood, hindering their validation and improvement. Recent
-                                    research emphasizes the need for understanding model behavior and addressing biases
-                                    within them. Regulations like the General Data Protection Regulation advocate for
-                                    transparent algorithmic decisions. This highlights the importance of
-                                    interpretability in AI models, making it crucial rather than optional. The project
-                                    aims to develop interpretability methods that leverage domain knowledge, offering
-                                    human-understandable explanations extracted directly from neural networks. It
-                                    integrates Knowledge Graphs to enhance interpretation and accuracy, focusing on an
-                                    application related to plant disease classification, essential for sustainable
-                                    agriculture in a changing climate.
-                                </p>
-                                <div class="accordion" id="accordionPanelsStayOpenExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#panelsStayOpen-collapseExplain" aria-expanded="false"
-                                                aria-controls="panelsStayOpen-collapseExplain">
-                                                <b>Resources</b>
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseExplain" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <p><b>Relevant Publications: </b>
-                                                <ul>
-                                                    <li><b>Concept explainability for plant diseases
-                                                            classification</b><br>
-                                                        Jihen Amara, Birgitta König-Ries, Sheeba Samuel, VISAPP, 2023
-                                                        (<a href="https://doi.org/10.5220/0011667900003417">Paper</a>, <a
-                                                            href="https://dblp.org/rec/conf/visapp/AmaraKS23.html?view=bibtex">Bibtex</a>)
-                                                    </li>
-                                                </ul>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-16">
-                            <div class="row g-0 border rounded overflow-hidden flex-md-row">
-                                <div class="col p-4 d-flex flex-column position-static">
-                                    <strong class="d-inline-block mb-2 text-primary-emphasis">Biodiversity, Ontology,
-                                        Semantic Web, ML</strong>
-                                    <h3 class="mb-0"><b>The Role of Ontology and Corpus Development in Biodiversity
-                                            Conservation</b></h3>
-                                    <div class="mb-1 text-body-secondary">2021-2022</div>
-                                    <p class="card-text">Biodiversity is the variety of life on Earth, including its
-                                        evolutionary, ecological, and cultural processes.
-                                        It is important to understand where biodiversity is, how it is changing over
-                                        time, and the factors that drive these changes.
-                                        To do this, we need to describe and integrate the conditions and measures of
-                                        biodiversity.
-                                        We present a core ontology for biodiversity to establish a link between
-                                        foundational and domain-specific ontologies.
-                                        Furthermore, we present two gold-standard corpora for Named Entity Recognition
-                                        (NER) and Relation Extraction (RE) generated from biodiversity datasets metadata
-                                        and abstracts.
-                                        These corpora can be used as evaluation benchmarks for the development of new
-                                        computer-supported tools that require machine learning or deep learning
-                                        techniques..
-                                        The underlying ontology for the classes and relations used to annotate such
-                                        corpora has also been demonstrated.
-                                    </p>
-                                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#panelsStayOpen-collapseBD" aria-expanded="false"
-                                                    aria-controls="panelsStayOpen-collapseBD">
-                                                    <b>Resources</b>
-                                                </button>
-                                            </h2>
-                                            <div id="panelsStayOpen-collapseBD" class="accordion-collapse collapse">
-                                                <div class="accordion-body">
-                                                    <p><b>Relevant Publications: </b>
-                                                    <ul>
-                                                        <li><b>BiodivNERE: Gold standard corpora for named entity
-                                                                recognition and relation extraction in the biodiversity
-                                                                domain</b><br>
-                                                            Nora Abdelmageed, Felicitas Löffler, Leila Feddoul, Alsayed
-                                                            Algergawy, Sheeba Samuel, Jitendra Gaikwad,
-                                                            Anahita Kazem, Birgitta König-Ries,
-                                                            Biodiversity Data Journal, 2022 (<a
-                                                                href="https://doi.org/10.3897/BDJ.10.e89481">Paper</a>,
-                                                            <a
-                                                                href="https://bdj.pensoft.net/article/89481/download/bibtex/">Bibtex</a>)
-                                                        </li>
-                                                        <li>
-                                                            <b>A Data-driven Approach for Core Biodiversity Ontology
-                                                                Development.</b><br>
-                                                            Nora Abdelmageed, Alsayed Algergawy, Sheeba Samuel, Birgitta
-                                                            König-Ries, Third International Workshop on
-                                                            Semantics for Biodiversity, co-located with ICBO, 2021 (<a
-                                                                href="http://ceur-ws.org/Vol-2969/paper5-s4biodiv.pdf">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.org/rec/conf/jowo/AbdelmageedASK21.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                        <li><b>BiodivOnto: Towards a Core Ontology for
-                                                                Biodiversity</b><br>
-                                                            Nora Abdelmageed, Alsayed Algergawy, Sheeba Samuel, Birgitta
-                                                            König-Ries, 18th Extended Semantic Web
-                                                            Conference (ESWC) 2021 Poster Track, 6-10 June, 2021 (<a
-                                                                href="https://doi.org/10.1007/978-3-030-80418-3_1">Paper</a>,
-                                                            <a
-                                                                href="https://dblp.dagstuhl.de/rec/conf/esws/AbdelmageedASK21.html?view=bibtex">Bibtex</a>)
-                                                        </li>
-                                                    </ul>
-                                                    <p><b>Code: </b></p>
-                                                    <ul>
-                                                        <li>
-                                                            <a property="item" typeof="WebPage"
-                                                                href="https://github.com/fusion-jena/BiodivNERE">
-                                                                https://github.com/fusion-jena/BiodivNERE</a>
-                                                        </li>
-                                                        <li>
-                                                            <a property="item" typeof="WebPage"
-                                                                href="https://github.com/fusion-jena/BiodivOnto">
-                                                                https://github.com/fusion-jena/BiodivOnto</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p><b>Acknowledgements</b>
-                            </p>
-                            <p>This research is supported in parts by the Deutsche Forschungsgemeinschaft (DFG) in
-                                Project
-                                Z2 of the CRC/TRR 166 High-end light microscopy elucidates membrane
-                                receptor function - ReceptorLight, Carl Zeiss Foundation for the financial support of
-                                the
-                                project 'A Virtual Werkstatt for Digitization in the Sciences (K3)'
-                                within the scope of the program line 'Breakthroughs: Exploring Intelligent Systems for
-                                Digitization - explore the basics, use applications' and the University of Jena for
-                                IMPULSE
-                                funding:
-                                IP 2020-10.
-                            </p>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-    </section><!-- End Research Section -->
-
-    <!--  Footer  -->
     <footer class="footer position-fixed bottom-0 end-0">
-        <div class="container">
-            <div class="licence align-items-center"><a rel="license"
-                    href="http://creativecommons.org/licenses/by-sa/4.0/">
-                    <img alt="Creative Commons License" style="border-width:0" src="assets/img/license.png" /></a>
-            </div>
+      <div class="container">
+        <div class="licence align-items-center">
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="assets/img/license.png" /></a>
         </div>
+      </div>
     </footer>
+  </main>
 
-    <a href="#" class="scroll-to-top d-flex align-items-center justify-content-center"><i class="bi-arrow-up"></i></a>
+  <a href="#" class="scroll-to-top d-flex align-items-center justify-content-center"><i class="bi-arrow-up"></i></a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
