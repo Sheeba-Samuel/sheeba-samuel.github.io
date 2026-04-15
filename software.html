@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="Software, datasets, and ontologies by Sheeba Samuel — tools for reproducibility, provenance, and biodiversity research.">
+  <title>Software &amp; Datasets — Sheeba Samuel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" crossorigin="anonymous"></script>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <i class="bi bi-list responsive-nav-toggle d-xl-none"></i>
+
+  <header id="header">
+    <div class="sidebar-banner">
+      <img src="assets/img/profile.jpeg" alt="Sheeba Samuel" />
+      <div class="sidebar-name">Sheeba Samuel</div>
+      <p class="sidebar-subtitle">Senior Researcher and Lecturer<br>TU Chemnitz, Germany</p>
+    </div>
+    <div class="sidebar-links-section">
+      <div class="sidebar-links-label">Profiles &amp; Social</div>
+      <div class="sidebar-links">
+        <a href="https://scholar.google.com/citations?user=aqajFkUAAAAJ" target="_blank" title="Google Scholar"><img src="assets/img/scholar.png" alt="Google Scholar" /></a>
+        <a href="https://orcid.org/0000-0002-7981-8504" target="_blank" title="ORCID"><img src="assets/img/orcid.png" alt="ORCID" /></a>
+        <a href="https://www.researchgate.net/profile/Sheeba_Samuel2" target="_blank" title="ResearchGate"><img src="assets/img/researchgate.png" alt="ResearchGate" /></a>
+        <a href="https://www.wikidata.org/wiki/Q58200038" target="_blank" title="Wikidata"><img src="assets/img/wikidata.png" alt="Wikidata" /></a>
+        <a href="https://vsr.informatik.tu-chemnitz.de/about/people/samuel/" target="_blank" title="VSR Group"><img src="assets/img/vsr.png" alt="VSR" /></a>
+        <a href="https://www.fusion.uni-jena.de/people/details/sheeba-samuel" target="_blank" title="FUSION"><img src="assets/img/fusion.png" alt="FUSION" /></a>
+        <a href="https://github.com/Sheeba-Samuel" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/sheeba-samuel-a766534a/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/sheebasamuel" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+    <nav id="navbar" class="nav-menu navbar">
+      <ul>
+        <li><a href="index.html" class="nav-link"><i class="bi bi-house"></i> <span>Home</span></a></li>
+        <li><a href="cv.html" class="nav-link"><i class="bi bi-person-vcard"></i> <span>CV</span></a></li>
+        <li><a href="publications.html" class="nav-link"><i class="bi bi-files"></i> <span>Publications</span></a></li>
+        <li><a href="research.html" class="nav-link"><i class="bi bi-search"></i> <span>Research</span></a></li>
+        <li><a href="software.html" class="nav-link"><i class="bi bi-code-square"></i> <span>Software</span></a></li>
+        <li><a href="talks.html" class="nav-link"><i class="bi bi-mic"></i> <span>Talks</span></a></li>
+        <li><a href="travel.html" class="nav-link"><i class="bi bi-camera"></i> <span>Travel</span></a></li>
+        <li><a href="contact.html" class="nav-link"><i class="bi bi-envelope-at"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-section">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Software, Datasets &amp; Ontologies</h2>
+        </div>
+
+        <p class="sw-section-intro">
+          Below is an overview of the open-source tools, ontologies, knowledge graphs, and datasets produced
+          as part of my research on reproducibility, provenance, and biodiversity informatics.
+          All artifacts are freely available under open licenses.
+        </p>
+
+        <!-- ══════════════════════════════════════
+             SOFTWARE & TOOLS
+        ══════════════════════════════════════ -->
+        <div class="cv-section-title"><i class="bi bi-tools me-2"></i>Software &amp; Tools</div>
+
+        <div class="row g-3 mb-4">
+
+
+          <!-- LLM assisted KG construction Pipeline -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-puzzle"></i> Pipeline</span>
+              <div class="sw-card-title">LLM assisted KG construction Pipeline</div>
+              <div class="sw-card-meta">2024 – 2025 &nbsp;·&nbsp; Python, LLM</div>
+              <div class="sw-card-desc">
+                This repository contains code, data, prompts and results related to the (semi-)automatic pipeline of Ontology and Knowledge Graph Construction
+                with four different Large Language Models (LLMs): Mixtral 8x22B Instruct v0.1-Instruct-v0.1, GPT-4o, GPT-3.5, Gemini.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">LLM</span>
+                <span class="sw-tech-tag">Ontology engineering</span>
+                <span class="sw-tech-tag">Knowledge engineering</span>
+                <span class="sw-tech-tag">Knowledge graphs</span>
+                <span class="sw-tech-tag">reproducibility</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/automatic-KG-creation-with-LLM" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.48550/arXiv.2403.08345" target="_blank"><i class="bi bi-file-earmark-text"></i> Preprint</a>
+                <a href="https://ceur-ws.org/Vol-3874/paper2.pdf" target="_blank"><i class="bi bi-file-earmark-text"></i> SEMANTiCS 2024 Workshop</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Information Retrieval Pipeline using multiple LLMs and RAG -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-puzzle"></i> Pipeline</span>
+              <div class="sw-card-title">Information Retrieval Pipeline using multiple LLMs and RAG</div>
+              <div class="sw-card-meta">2025 – 2026 &nbsp;·&nbsp; Python, LLM</div>
+              <div class="sw-card-desc">
+                This repository contains code, data, prompts and results related to information retrieval from PDFs using multiple LLMs and the RAG approach. Later, results from individual LLM were used to create a hard voting classifier, 
+                which enhances the overall quality of the results. LLMs used: Llama-3 70B, Llama-3.1 70B, Mixtral-8x22B-Instruct-v0.1, Mixtral 8x7B, and Gemma 2 9B.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">LLM</span>
+                <span class="sw-tech-tag">Information Retrieval</span>
+                <span class="sw-tech-tag">Retrieval-Augmented Generation</span>
+                <span class="sw-tech-tag">Knowledge engineering</span>                
+                <span class="sw-tech-tag">reproducibility</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/information-retrieval-using-multiple-LLM-and-RAG" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.7717/peerj-cs.3204" target="_blank"><i class="bi bi-file-earmark-text"></i> PeerJ Computer Science</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Computational Reproducibility Analysis -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-code-slash"></i> Analysis Code</span>
+              <div class="sw-card-title">Computational Reproducibility Analysis</div>
+              <div class="sw-card-meta">2021 – present &nbsp;·&nbsp; Python</div>
+              <div class="sw-card-desc">
+                Scripts and pipelines for the large-scale study of Jupyter notebook reproducibility from
+                biomedical publications. Covers mining PubMed Central, locating notebooks on GitHub,
+                executing them in clean environments, and comparing outputs — across 27,000+ notebooks
+                from 2,660 repositories.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">Docker</span>
+                <span class="sw-tech-tag">PubMed Central</span>
+                <span class="sw-tech-tag">GitHub API</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/computational-reproducibility-pmc" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.1093/gigascience/giad113" target="_blank"><i class="bi bi-file-earmark-text"></i> GigaScience 2024</a>
+                <a href="https://arxiv.org/abs/2604.01072" target="_blank"><i class="bi bi-file-earmark-text"></i> Preprint 2026</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ProvBook -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-puzzle"></i> Jupyter Extension</span>
+              <div class="sw-card-title">ProvBook</div>
+              <div class="sw-card-meta">2018 – 2019 &nbsp;·&nbsp; Python, Jupyter Notebook</div>
+              <div class="sw-card-desc">
+                A Jupyter Notebook extension that captures and visualizes the provenance of notebook executions
+                over time using the REPRODUCE-ME ontology. Stores execution history as RDF, allows side-by-side
+                comparison of runs, and supports SPARQL querying of experiment histories.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">PROV-O</span>
+                <span class="sw-tech-tag">Jupyter</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/Sheeba-Samuel/ProvBook" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.6084/m9.figshare.6401096.v1" target="_blank"><i class="bi bi-play-circle"></i> Demo</a>
+                <a href="http://ceur-ws.org/Vol-2180/paper-57.pdf" target="_blank"><i class="bi bi-file-earmark-text"></i> ISWC 2018</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ReproduceMeGit -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-bar-chart-line"></i> Visualization Tool</span>
+              <div class="sw-card-title">ReproduceMeGit</div>
+              <div class="sw-card-meta">2020 – 2022 &nbsp;·&nbsp; Python, Flask</div>
+              <div class="sw-card-desc">
+                A web-based visualization tool for assessing the reproducibility of Jupyter notebooks stored
+                in GitHub repositories. Displays counts of reproducible, exception-throwing, and result-differing
+                notebooks, with RDF provenance export via ProvBook integration.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">Flask</span>
+                <span class="sw-tech-tag">GitHub API</span>
+                <span class="sw-tech-tag">RDF</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/ReproduceMeGit" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.6084/m9.figshare.12084393.v1" target="_blank"><i class="bi bi-play-circle"></i> Demo</a>
+                <a href="https://doi.org/10.1007/978-3-030-80960-7_12" target="_blank"><i class="bi bi-file-earmark-text"></i> IPAW 2021</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- MLProvLab -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-puzzle"></i> JupyterLab Extension</span>
+              <div class="sw-card-title">MLProvLab</div>
+              <div class="sw-card-meta">2021 – 2023 &nbsp;·&nbsp; Python, TypeScript, JupyterLab</div>
+              <div class="sw-card-desc">
+                A JupyterLab extension that automatically tracks, manages, compares, and visualizes provenance
+                of machine learning notebooks. Identifies relationships between data and models in ML scripts,
+                records datasets and modules used, and enables comparison across experimental runs.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">TypeScript</span>
+                <span class="sw-tech-tag">JupyterLab</span>
+                <span class="sw-tech-tag">RDF</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/MLProvLab/" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.18420/BTW2023-66" target="_blank"><i class="bi bi-file-earmark-text"></i> BTW 2023</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- MLProvCodeGen - Machine Learning Provenance Code Generator -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-puzzle"></i> JupyterLab Extension</span>
+              <div class="sw-card-title">MLProvCodeGen - Machine Learning Provenance Code Generator</div>
+              <div class="sw-card-meta">2022 – 2023 &nbsp;·&nbsp; Python, TypeScript, JupyterLab</div>
+              <div class="sw-card-desc">
+                MLProvCodeGen is a JupyterLab extension that automates the generation of machine learning training code while simultaneously capturing fine-grained provenance data according to real-world models. It enables the seamless reproduction of 
+                experiments from recorded provenance files and generates relational graphs to provide a clear visual representation of the entire research workflow.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">TypeScript</span>
+                <span class="sw-tech-tag">JupyterLab</span>
+                <span class="sw-tech-tag">RDF</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/MLProvCodeGen" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.18420/BTW2023-72" target="_blank"><i class="bi bi-file-earmark-text"></i> BTW 2023</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- CAESAR -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-layers"></i> Platform</span>
+              <div class="sw-card-title">CAESAR</div>
+              <div class="sw-card-meta">2016 – 2019 &nbsp;·&nbsp; Python</div>
+              <div class="sw-card-desc">
+                Collaborative Environment for Scientific Analysis with Reproducibility — an end-to-end provenance
+                management framework for scientific experiments. Allows scientists to capture, manage, query, and
+                visualize the complete path of an experiment, covering both computational and wet-lab steps.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">SPARQL</span>
+                <span class="sw-tech-tag">Provenance</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/CaesarReceptorLight" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://peerj.com/articles/cs-921/" target="_blank"><i class="bi bi-file-earmark-text"></i> PeerJ CS 2022</a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- BiodivNERE Code -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-tool"><i class="bi bi-code-slash"></i> NLP Code</span>
+              <div class="sw-card-title">BiodivNERE</div>
+              <div class="sw-card-meta">2021 – 2022 &nbsp;·&nbsp; Python</div>
+              <div class="sw-card-desc">
+                Code and gold-standard corpora for Named Entity Recognition (NER) and Relation Extraction (RE)
+                in the biodiversity domain, generated from biodiversity dataset metadata and publication
+                abstracts. Supports training and evaluation of NLP models for ecological text.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Python</span>
+                <span class="sw-tech-tag">NLP</span>
+                <span class="sw-tech-tag">NER</span>
+                <span class="sw-tech-tag">Biodiversity</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/BiodivNERE" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.3897/BDJ.10.e89481" target="_blank"><i class="bi bi-file-earmark-text"></i> BDJ 2022</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ══════════════════════════════════════
+             ONTOLOGIES & KNOWLEDGE GRAPHS
+        ══════════════════════════════════════ -->
+        <div class="cv-section-title"><i class="bi bi-diagram-3 me-2"></i>Ontologies &amp; Knowledge Graphs</div>
+
+        <div class="row g-3 mb-4">
+
+          <!-- FAIR Jupyter KG -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-kg"><i class="bi bi-share"></i> Knowledge Graph</span>
+              <div class="sw-card-title">FAIR Jupyter Knowledge Graph</div>
+              <div class="sw-card-meta">2024 &nbsp;·&nbsp; RDF, SPARQL, Wikibase</div>
+              <div class="sw-card-desc">
+                A knowledge graph encoding metadata about Jupyter notebook reproducibility at a granular level —
+                notebooks, repositories, cells, outputs, execution environments, and linked publications.
+                Enables semantic querying, provenance exploration, and FAIR sharing of reproducibility evidence.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">SPARQL</span>
+                <span class="sw-tech-tag">Wikibase</span>
+                <span class="sw-tech-tag">FAIR Data</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/fairjupyter" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.48550/arXiv.2404.12935" target="_blank"><i class="bi bi-file-earmark-text"></i> TGDK 2024</a>
+                <a href="https://doi.org/10.5281/zenodo.6802158" target="_blank"><i class="bi bi-database"></i> Dataset</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- REPRODUCE-ME Ontology -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-ontology"><i class="bi bi-diagram-2"></i> Ontology</span>
+              <div class="sw-card-title">REPRODUCE-ME Ontology</div>
+              <div class="sw-card-meta">2016 – 2019 &nbsp;·&nbsp; OWL, RDF</div>
+              <div class="sw-card-desc">
+                A generic data model and ontology for representing scientific experiments with full provenance.
+                Extends PROV-O and P-Plan with eight experiment components (Data, Agent, Activity, Plan,
+                Step, Setting, Instrument, Material) to enable end-to-end reproducibility tracking.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">OWL</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">PROV-O</span>
+                <span class="sw-tech-tag">P-Plan</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://w3id.org/reproduceme/" target="_blank"><i class="bi bi-link-45deg"></i> Ontology</a>
+                <a href="https://doi.org/10.1186/s13326-021-00253-1" target="_blank"><i class="bi bi-file-earmark-text"></i> J. Biomed. Semantics 2022</a>
+                <a href="https://doi.org/10.1007/978-3-319-70407-4_4" target="_blank"><i class="bi bi-file-earmark-text"></i> ESWC 2017</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ReproduceMeON -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-ontology"><i class="bi bi-diagram-3"></i> Ontology Network</span>
+              <div class="sw-card-title">ReproduceMeON</div>
+              <div class="sw-card-meta">2021 – present &nbsp;·&nbsp; OWL, RDF</div>
+              <div class="sw-card-desc">
+                An ontology network for the reproducibility of scientific studies, linking foundational and
+                core ontologies covering scientific experiments, machine learning workflows, computational
+                notebooks, and microscopy. Built using a semi-automated approach with ontology matching.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">OWL</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">Ontology Matching</span>
+                <span class="sw-tech-tag">SPARQL</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/ReproduceMeON" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="http://ceur-ws.org/Vol-2969/paper64-OntoCom.pdf" target="_blank"><i class="bi bi-file-earmark-text"></i> FOIS 2021</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- BiodivOnto -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-ontology"><i class="bi bi-tree"></i> Domain Ontology</span>
+              <div class="sw-card-title">BiodivOnto</div>
+              <div class="sw-card-meta">2021 – 2022 &nbsp;·&nbsp; OWL</div>
+              <div class="sw-card-desc">
+                A core ontology for biodiversity that links foundational and domain-specific ontologies,
+                covering taxa, observations, specimens, and ecological relationships. Designed to support
+                semantic interoperability across biodiversity data sources and NLP pipelines.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">OWL</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">Biodiversity</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/BiodivOnto" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.1007/978-3-030-80418-3_1" target="_blank"><i class="bi bi-file-earmark-text"></i> ESWC 2021</a>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <!-- ══════════════════════════════════════
+             DATASETS & CORPORA
+        ══════════════════════════════════════ -->
+        <div class="cv-section-title"><i class="bi bi-database me-2"></i>Datasets &amp; Corpora</div>
+
+        <div class="row g-3 mb-2">
+
+          <!-- Reproducibility Survey Dataset -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-dataset"><i class="bi bi-clipboard-data"></i> Survey Dataset</span>
+              <div class="sw-card-title">Reproducibility Survey Dataset</div>
+              <div class="sw-card-meta">2021 &nbsp;·&nbsp; CSV, Jupyter Notebook</div>
+              <div class="sw-card-desc">
+                Dataset from an exploratory survey of researchers across disciplines investigating scientific
+                experiments and research practices relating to reproducibility. Includes questionnaire responses,
+                analysis notebooks, and derived statistical summaries. Published on Zenodo.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Survey</span>
+                <span class="sw-tech-tag">CSV</span>
+                <span class="sw-tech-tag">Jupyter</span>
+                <span class="sw-tech-tag">Zenodo</span>
+              </div>
+              <div class="sw-links">
+                <a href="http://doi.org/10.5281/zenodo.3862597" target="_blank"><i class="bi bi-database"></i> Zenodo</a>
+                <a href="https://mybinder.org/v2/gh/fusion-jena/ReproducibilitySurvey/master" target="_blank"><i class="bi bi-bar-chart"></i> Analysis</a>
+                <a href="https://peerj.com/articles/11140/" target="_blank"><i class="bi bi-file-earmark-text"></i> PeerJ 2021</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jupyter Notebooks Reproducibility Dataset -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-dataset"><i class="bi bi-journal-code"></i> Large-Scale Dataset</span>
+              <div class="sw-card-title">Jupyter Notebooks Reproducibility Dataset</div>
+              <div class="sw-card-meta">2024 &nbsp;·&nbsp; RDF, CSV, Zenodo</div>
+              <div class="sw-card-desc">
+                A large-scale dataset of 27,000+ Jupyter notebooks from biomedical publications (PubMed Central),
+                capturing reproducibility results, execution environments, error types, and linked metadata.
+                Available as both raw CSV and as a FAIR knowledge graph on Zenodo.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">Jupyter</span>
+                <span class="sw-tech-tag">PubMed Central</span>
+                <span class="sw-tech-tag">RDF</span>
+                <span class="sw-tech-tag">Zenodo</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://doi.org/10.5281/zenodo.6802158" target="_blank"><i class="bi bi-database"></i> Zenodo</a>
+                <a href="https://doi.org/10.1093/gigascience/giad113" target="_blank"><i class="bi bi-file-earmark-text"></i> GigaScience 2024</a>
+                <a href="https://doi.org/10.48550/arXiv.2404.12935" target="_blank"><i class="bi bi-file-earmark-text"></i> TGDK 2024</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- BiodivNERE Corpus -->
+          <div class="col-lg-6">
+            <div class="sw-card">
+              <span class="sw-type-badge sw-type-dataset"><i class="bi bi-card-text"></i> Annotated Corpus</span>
+              <div class="sw-card-title">BiodivNERE Corpus</div>
+              <div class="sw-card-meta">2022 &nbsp;·&nbsp; CoNLL, JSON</div>
+              <div class="sw-card-desc">
+                Two gold-standard corpora for Named Entity Recognition and Relation Extraction in the
+                biodiversity domain, generated from biodiversity dataset metadata and publication abstracts.
+                Covers entity types including taxon, location, habitat, trait, and ecological process.
+              </div>
+              <div class="sw-tech-tags">
+                <span class="sw-tech-tag">NER</span>
+                <span class="sw-tech-tag">Relation Extraction</span>
+                <span class="sw-tech-tag">Biodiversity</span>
+                <span class="sw-tech-tag">CoNLL</span>
+              </div>
+              <div class="sw-links">
+                <a href="https://github.com/fusion-jena/BiodivNERE" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                <a href="https://doi.org/10.3897/BDJ.10.e89481" target="_blank"><i class="bi bi-file-earmark-text"></i> BDJ 2022</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer position-fixed bottom-0 end-0">
+    <div class="container">
+      <div class="licence align-items-center">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="assets/img/license.png" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-to-top d-flex align-items-center justify-content-center"><i class="bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
